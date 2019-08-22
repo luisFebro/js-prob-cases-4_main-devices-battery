@@ -1,0 +1,138 @@
+/*
+By: Luis Febro
+Goal: MY JS PROB CASES - Creating some Practical Problems for honing and training programming skills, particularly for Javascript language.
+Date: 03/17/19
+*/
+
+/*GENERAL ELEMENT TWEAKS*/
+* {
+    box-sizing: border-box;
+}
+
+/*GENERAL STYLING AND POSITIONING*/
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+
+    text-align: justify;
+    font: normal 100%/1.6em Verdana, sans-serif;
+}
+h2 {
+    color: #fff;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p span {
+    font-style: italic;
+}
+
+.backgroundCode {
+    position: relative;
+    height: auto;
+    width: 100%;
+    word-wrap: break-word;
+    background: #2e3131;
+
+    text-align: center;
+}
+.backgroundCode span {
+    display: inline;
+    padding-right: .10em;
+
+    border-right: .10em solid #fff;
+    color: #fff;
+
+    font: normal 2em/1em Consolas, monospace !important;
+    animation: blinkingCursor 1s infinite !important;
+}
+
+@-webkit-keyframes blinkingCursor  {
+    50% {
+        border-right: none;
+    }
+}
+@keyframes blinkingCursor {
+    50% {
+        border-right: none;
+    }
+}
+.author {
+    display: block;
+
+    font: normal .7em/.3em Verdana, sans-serif;
+}
+
+.author span {
+    letter-spacing: .05em;
+    font: bolder 1.7em 'Monsieur La Doulaise', sans-serif;
+}
+
+.instructions {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+/*CONTAINERS*/
+.containerTitle {
+    height: 7.813em; /* 125px */
+    width: 30.625em; /* 250px */
+
+    border-radius: 0 0 7.813em 7.813em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, .2),
+    0 6px 20px 0 rgba(0, 0, 0, .19);
+
+    text-align: center;
+}
+.containerGreyradius {
+    padding: 0 3em;
+    margin: 20px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, .2),
+    0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+/*BUTTON DEFAUT*/
+.buttonOutput {
+    display: block;
+
+    width: 11em;
+    margin: 12px 20% 30px;
+
+    border: none;
+    border-radius: 1em;
+    background-color: #639;
+    box-shadow: 0 9px #999;
+    outline: none;
+    color: #fff;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+.buttonOutput span {
+    color: #fff;
+
+    text-align: left;
+    font: bold 1.2em Verdana, sans-serif;
+}
+
+.buttonOutput:active {
+    background-color: #1e824c;
+    box-shadow: 0 5px #666;
+
+    transform: translateY(4px);
+}
